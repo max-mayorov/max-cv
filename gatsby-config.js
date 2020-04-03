@@ -1,3 +1,6 @@
+require("dotenv").config({
+  path: `.env.local`,
+})
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -30,7 +33,7 @@ module.exports = {
     {
       resolve: `gatsby-source-datocms`,
       options: {
-        apiToken: `19bf77a424297e46168de7b1b7a3ec`,
+        apiToken: process.env.GATSBY_DATO_CMS_API_TOKEN,
         preview: false,
         disableLiveReload: false,
       },
