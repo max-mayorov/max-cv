@@ -1,7 +1,6 @@
 import React from 'react';
 const Cv = ({ data }) => (
   <article className="sheet">
-    <pre>{JSON.stringify(data)}</pre>
     <h1>{data.cv.name}</h1>
     <p>{data.cv.motto}</p>
     <img src={data.cv.photo.url} />
