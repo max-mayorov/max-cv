@@ -1,23 +1,33 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "max-cv-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Online CV of Max Mayorov",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Max Mayorov (max.mayorov@live.com)",
   "dependencies": {
+    "bulma": "^0.8.1",
     "gatsby": "^2.19.45",
     "gatsby-image": "^2.2.44",
     "gatsby-plugin-manifest": "^2.2.48",
+    "gatsby-plugin-netlify": "^2.2.1",
     "gatsby-plugin-offline": "^3.0.41",
+    "gatsby-plugin-preact": "^3.2.1",
     "gatsby-plugin-react-helmet": "^3.1.24",
+    "gatsby-plugin-sass": "^2.2.1",
     "gatsby-plugin-sharp": "^2.4.13",
+    "gatsby-plugin-typography": "^2.4.1",
     "gatsby-source-datocms": "^2.1.29",
     "gatsby-source-filesystem": "^2.1.56",
     "gatsby-transformer-sharp": "^2.3.19",
+    "node-sass": "^4.13.1",
+    "preact": "^10.3.4",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-lawton": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
