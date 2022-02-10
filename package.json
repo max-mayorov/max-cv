@@ -23,7 +23,7 @@
     "gatsby-source-filesystem": "^2.1.56",
     "gatsby-transformer-remark": "^2.7.3",
     "gatsby-transformer-sharp": "^2.3.19",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "preact": "^10.3.4",
     "preact-render-to-string": "^5.1.6",
     "prop-types": "^15.7.2",
